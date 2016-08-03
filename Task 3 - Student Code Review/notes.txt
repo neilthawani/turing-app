@@ -1,0 +1,84 @@
+Question: What can we learn about education across the state?
+
+Three layers: 
+Data access - query/search the underlying data
+Relationships - create connections between related data
+Analysis - relates data/relationships to draw conclusions
+
+Goals:
+Write tests to drive design/implementation of code
+Decompose the app into components: parsers, repos, analysis tools
+Use test fixtures instead of data when testing
+Connect related objects together through references
+Learn an agile approach to building software
+
+Key Concepts:
+Data about various Colorado school districts
+"District" concept unifies information across the various data files
+    identified by simple names (strings), listed under "Location" column of each file
+Overarching data themes
+    Enrollment - rates across various grade levels in each district
+    Statewide testing - test results broken down by grade, race, ethnicity
+    Economic profile - Socioeconomic profiles of students in districts
+
+Enrollment
+
+Dropout rates by race and ethnicity.csv
+High school graduation rates.csv
+Kindergartners in full-day program.csv
+Online pupil enrollment.csv
+Pupil enrollment by race_ethnicity.csv
+Pupil enrollment.csv
+Special education.csv
+Statewide Testing
+
+3rd grade students scoring proficient or above on the CSAP_TCAP.csv
+8th grade students scoring proficient or above on the CSAP_TCAP.csv
+Average proficiency on the CSAP_TCAP by race_ethnicity_ Math.csv
+Average proficiency on the CSAP_TCAP by race_ethnicity_ Reading.csv
+Average proficiency on the CSAP_TCAP by race_ethnicity_ Writing.csv
+Remediation in higher education.csv
+Economic Profile
+
+Median household income.csv
+School-aged children in poverty.csv
+Students qualifying for free or reduced price lunch.csv
+Title I students.csv
+
+===
+
+Project iterations:
+Iteration 0 - District Kindergarten Data Access
+Iteration 1 - District Kindergarten Relationships & Analysis
+Iteration 2 - Remaining Enrollment Access & Analysis: High School Graduation
+Iteration 3 - Data Access & Relationships: Statewide Testing
+Iteration 4 - Data Access & Relationships: Economic Profile
+Iteration 5 - Analysis: Statewide Testing
+Iteration 6 - Analysis: Economic Profile
+
+===
+
+Goals:
+Functional expectations: Application fulfills all expectations of Iterations 0 - 6 as well as one additional, comparable Iteration of your own design.
+
+Test-Driven Development: Application is broken into components which are well tested in both isolation and integration using appropriate data
+
+Encapsulation / Breaking Logic into Components: Application is expertly divided into logical components each with a clear, single responsibility
+
+Fundamental Ruby & Style: Application demonstrates excellent knowledge of Ruby syntax, style, and refactoring
+
+Enumerable & Collections: Application consistently makes use of the best-choice Enumerable methods
+
+Code Sanitation: The output from rake sanitation:all shows 0 complaints.
+
+===
+
+Code sanitation:
+  lib/district.rb:22             Line is >80 characters (88)
+  lib/district_repository.rb:7   Line is >80 characters (105)
+  lib/district_repository.rb:46  Line is >80 characters (82)
+  lib/district_repository.rb:47  Line is >80 characters (85)
+  lib/enrollment.rb:9            Line is >80 characters (171)
+  lib/headcount_analyst.rb:36    Line is >80 characters (87)
+  lib/headcount_analyst.rb:49    Line is >80 characters (103)
+  lib/headcount_analyst.rb:74    Line is >80 characters (111)
