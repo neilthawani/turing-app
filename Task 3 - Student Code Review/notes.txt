@@ -74,7 +74,7 @@ Code Sanitation: The output from rake sanitation:all shows 0 complaints.
 ===
 
 Code sanitation:
-  lib/district.rb:22             Line is >80 characters (88)
+  lib/district.rb:22             Line is >80 characters (88) - done, based on proc_example.txt
   lib/district_repository.rb:7   Line is >80 characters (105)
   lib/district_repository.rb:46  Line is >80 characters (82)
   lib/district_repository.rb:47  Line is >80 characters (85)
@@ -82,3 +82,17 @@ Code sanitation:
   lib/headcount_analyst.rb:36    Line is >80 characters (87)
   lib/headcount_analyst.rb:49    Line is >80 characters (103)
   lib/headcount_analyst.rb:74    Line is >80 characters (111)
+
+===
+
+district.rb and its corresponding test look fine
+district_repository.rb is fucked. totally fucked.
+enrollment.rb and its corresponding test look fine
+enrollment_repository.rb is passing, but the prod code is a little hacky - Instance_set_var is usually a hack method, try send somehow by converting the string to a sym or something
+enrollment_test, headcount_analyst_test, and iteration_1_test are passing
+
+===
+
+Need to refactor headcount_analyst and its respective test.
+
+ruby -Ilib:test test/minitest/test_minitest_test.rb
