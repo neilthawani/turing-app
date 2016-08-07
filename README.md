@@ -17,6 +17,6 @@ I am currently an Ember.js and D3.js developer at Infegy, a social media researc
 
 ## Task 3 - Student Code Review
 
-After looking through the Headcount project specification and forking the [repository from a student's submission](https://github.com/jmejia/headcount), I refactored a good deal of the code, issued a pull request to my [forked repository's master branch](https://github.com/neilthawani/headcount) and appended in-line comments to many of the changes I made to the original source. These comments addressed basic refactoring principles, variable/method names, DRY, single responsibility, data structures, public/private variables, and setup/teardown methods for our test harnesses. 
+After looking through the Headcount project specification and forking the [repository from a student's submission](https://github.com/jmejia/headcount), I refactored a good deal of the code, issued a pull request to my forked repository's master branch and appended in-line comments to many of the changes I made to the original source. These comments addressed basic refactoring principles, variable/method names, DRY, single responsibility, data structures, public/private variables, and setup/teardown methods for our test harnesses. 
 
 [You can view that pull request here.](https://github.com/neilthawani/headcount/pull/1)
