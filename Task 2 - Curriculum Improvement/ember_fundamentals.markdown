@@ -31,8 +31,8 @@ tags: javascript, ember
 
 ### Who uses Ember?
 
-| Twitch | Urbanspoon | Infegy | TED |
-| Zenefits | Netflix | Heroku | Microsoft |
+| Twitch | Urbanspoon | Infegy | TED
+| Zenefits | Netflix | Heroku | Microsoft
 | LinkedIn | Esri | Kickstarter | [More...](http://emberjs.com/ember-users/) |
 
 ## Learning Goals
