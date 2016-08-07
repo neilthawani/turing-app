@@ -74,6 +74,31 @@ Broccoli, folder structure, ES6 modules, ES6 support with Babel, testing framewo
 
 We're going to implement the basic functionality of [Great Tipper][greattipper]. Follow along!
 
+```shell
+> npm install ember-cli -g
+> ember new project-name
+> ember s
+```
+
+Some Ember CLI conventions will remind you of Ruby on Rails.
+Let's open the IDE and go over the structure of the application.
+
+* Everything we will write is in ```app```.
+* ```bower_components``` and ```node_modules``` contain our bower/npm packages.
+* ```config``` contains environment.js, for dev/test/prod setup and some addon management.
+* ```dist``` and ```tmp``` contain minified files.
+* You can put assets in ```public``` and ```vendor``` and tests in ```tests```.
+
+We're going to learn how to do the following things in our new application:
+* Create an application folder in app/ with route, controller, template.
+* We can invoke components and decorate them with custom HTML/attributes using HTMLBars.
+* Create an array in the controller and run through it in an ```#each``` loop in the template.
+* Create a component with ```file-name-hyphenated``` using generators. Touch upon pods, routable components, and data down, actions up.
+* Create a form with a decorated input tag helper in the template. Create a button with an ```{{action}}```.
+* In the ```action```, add an object to the array using ```.get(object)``` and ```array.pushObject(object)```.
+* Data will usually come from an AJAX call. ```model()``` in the ```route.js``` file returns a ```model``` object to its controller. I would rather do ```this.controller.set('variable', data)``` for explicitness.
+* We can stub a JSON file in ```public/``` and issue an AJAX call. Set the variable in the controller, pass it into a component. We can send an action from the component to the controller using ```sendAction```.
+
 ### Pair Practice
 
 Can you add any of the following to your application?
@@ -89,50 +114,18 @@ What are some of the similarities between Ember's object models and Ruby's? Is t
 
 ===
 
-https://www.youtube.com/watch?v=53OpEYA4zPQ
-List concepts before covering everything.
-Cover it in the means of MVC or routable components flow.
-Data down, actions up.
-
-Node.js installed
-npm install ember-cli -g
-Create new Ember CLI project.
-Can do ember s
-Files and folders structure overview, then go to index.html and application.hbs
-Walk through file, do #each loop, note that index can be put into block
-How component interacts, talk about generators but do pods structure for routable components and talk about how your folder structure is easier than MVC and accommodates better for the concept of routable components
-Form helpers - input tag and decorating bindings
-Button with action for form
-Add object to array using .get(object) and array.pushObject(obj)
-Can we do ember g component bear-list (for #each from before) or should we indicate something about pods again?
-Note that the array of data won't come from app - it'll come from AJAX
-Go into route - go to model() and issue an AJAX request - model() returns to the controller.js object "model," but we'd rather do this.controller.set('var', data);
-Stub a JSON file in public/ and that's fine like that
-Pass param into bears-list component from Ajax reply
-Create a new action and do "sendAction" from the component
-Maybe have a save action in the router.
-Data down, actions up.
-
-===
-
 https://guides.emberjs.com/v2.5.0/object-model/
-* Classes and instances
-  * Initializing an object (and calling `this._super()`)
-  * Computed properties
-  * Observers
-  * Working with arrays
-  * Bindings
-  * Template helpers
-  * Components and actions
-
-Outside Resources
-Ember Screencasts
-Ember Global Meetup
-Ember Sherpa
+Objects in Ember
+Classes and Instances
+Reopening Classes and Instances
+Computed Properties
+Observers
+Bindings
+Enumerables
 
 ===
 
-Basic concepts:
+Basic Concepts:
 Routes - application state is stored in the URL
 Models - routes have models, containing the data for the app. Ember Data is a common library used for handling serialization of JSON objects
 Templates - build the app's HTML using HTMLBars (Handlebars syntax and web component rendering)
@@ -143,44 +136,39 @@ Dependency injection, two-way data binding, computed properties, automagically u
 
 Culminate in the Ember Object Model
 
-https://en.wikipedia.org/wiki/Ember.js#Ember_2.0
-
 Lifecycle hooks for components
 Rendering engine: Glimmer (external link to Ember Conf) - creates a virtual tree of rendered areas and diffs them like React
 
-https://en.wikipedia.org/wiki/Ember.js#Ember_Software_Stack
+#### Ember Data
+* Like an ORM with a RESTful JSON API so it can interface with a multitude of languages (PHP, Node.js, Python, Go, .NET, Java)
 
+#### Ember Inspector
+* Extension available for Firefox and Chrome
+* See which templates are being rendered, properties of an Ember Object with UI that computes bindings/computed properties
+* See the records for each model if you're using Ember Data
+* Another tool to use in addition to console.logs/breakpoints
 
+### Release cycle
+* Ember RFCs are submitted to Github and reviewed by the community.
+* Approximately every six weeks, the next Ember version and its beta are released
 
-Ember Data
-
-Like an ORM with a RESTful JSON API so it can interface with a multitude of languages (PHP, Node.js, Python, Go, .NET, Java)
-
-Ember Inspector
-
-Extension available for Firefox and Chrome
-See which templates are being rendered, properties of an Ember Object with UI that computes bindings/computed properties
-See the records for each model if you're using Ember Data
-
-Ask: What other things do we use to debug our applications? console functions and breakpoints.
-
-Release cycle
-
-Approximately every six weeks - Ember RFCs are submitted to Github and reviewed by the community. Next version release and beta for the one after that are released.
-
-Semver
-Breaking changes introduced at major version numbers
-New features, deprecations added at point releases
-Tooling to streamline this process is under development
+#### Semantic Versioning
+* Breaking changes introduced at major version numbers
+* New features, deprecations added at point releases
+* Tooling to streamline this process is under development
 
 ## Resources
 
-[Core team meeting minutes](https://github.com/emberjs/core-notes)
-[EmberJS subreddit](https://www.reddit.com/r/emberjs)
-[Ember RFCs](https://github.com/emberjs/rfcs)
-[Major changes for Ember go through the RFC process)
-[Ember Weekly Newsletter](http://emberweekly.com/)
-[Monthly Online Global Ember Meetup](https://www.bigmarker.com/communities/global-ember-meetup/about)
+* [Core team meeting minutes](https://github.com/emberjs/core-notes)
+* [EmberJS subreddit](https://www.reddit.com/r/emberjs)
+* [Ember RFCs](https://github.com/emberjs/rfcs)
+* [Major changes for Ember go through the RFC process)
+* [Ember Weekly Newsletter](http://emberweekly.com/)
+* [Monthly Online Global Ember Meetup](https://www.bigmarker.com/communities/global-ember-meetup/about)
 * [Great Tipper][greattipper]
 
 [greattipper]: https://github.com/neilthawani/great-tipper
+
+Ember Screencasts
+Ember Global Meetup
+Ember Sherpa
