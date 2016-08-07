@@ -11,11 +11,12 @@ The challenges I faced involved conveying this information to an audience that e
 
 I am currently an Ember.js and D3.js developer at Infegy, a social media research SaaS firm in Kansas City, MO. I've grown to love Ember.js and its conventions since they're so reminiscent of Ruby. Because of this, I decided to improve the Ember Fundamentals lecture and ported the code from the good-tipper application into my own repository and fixed it up so it's fully functional.
 
-[This is a link to the Ember Fundamentals pull request.]()
+[This is a link to the Ember Fundamentals pull request.](https://github.com/turingschool/lesson_plans/pull/234)
+
 [This is a link to great-tipper.](https://github.com/neilthawani/great-tipper)
 
 ## Task 3 - Student Code Review
 
-After looking through the Headcount project specification and forking the [repository from a student's submission](https://github.com/jmejia/headcount), I forked the repository and refactored a good deal of the code. I issued a pull request to my forked repository's master branch and appended in-line comments to many of the changes I made to the original source. These comments addressed basic refactoring principles, variable/method names, DRY, single responsibility, data structures, public/private variables, and setup/teardown methods for our test harnesses. 
+After looking through the Headcount project specification and forking the [repository from a student's submission](https://github.com/jmejia/headcount), I refactored a good deal of the code, issued a pull request to my forked repository's master branch and appended in-line comments to many of the changes I made to the original source. These comments addressed basic refactoring principles, variable/method names, DRY, single responsibility, data structures, public/private variables, and setup/teardown methods for our test harnesses. 
 
 [You can view that pull request here.](https://github.com/neilthawani/headcount/pull/1).
