@@ -5,6 +5,8 @@ While creating this lesson, I found the Introduction to CSV on the Turing GitHub
 
 The challenges I faced involved conveying this information to an audience that essentially knows nothing about data processing while keeping it relevant and informative, but I tried my best.
 
+[You can find the repository for the lesson here.](https://github.com/neilthawani/intro-to-csv)
+
 ## Task 2 - Curriculum Improvement
 
 I am currently an Ember.js and D3.js developer at Infegy, a social media research SaaS firm in Kansas City, MO. I've grown to love Ember.js and its conventions since they're so reminiscent of Ruby. Because of this, I decided to improve the Ember Fundamentals lecture and ported the code from the good-tipper application into my own repository and fixed it up so it's fully functional.
