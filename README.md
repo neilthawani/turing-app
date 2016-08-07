@@ -1,3 +1,8 @@
-### Task 3
+### Task 1 - Lesson Planning
+Based on my experiences, I decided to create the lesson plan for Parsing CSV in Ruby. I worked with an education startup accelerator in Kansas City called the Lean Lab about a year ago and shared my story and thought process while working on that project in the introductory video to the lesson.
+I made some changes to the headers on the default lesson plan template, but the basic structure remains the same.
+While creating this lesson, I found the Introduction to CSV on the Turing GitHub repository. I believe my lesson is slightly more detailed than that, as it touches on memory management, reviewing documentation, and edge cases involved in parsing CSV data. The challenges I faced involved conveying this information to an audience that essentially knows nothing about data processing while keeping it relevant and informative, but I tried my best.
+
+### Task 3 - Student Code Review
 
 After looking through the Headcount project specification and forking the [repository from a student's submission](https://github.com/jmejia/headcount), I forked the repository and refactored a good deal of the code. I issued a pull request to my forked repository's master branch and appended in-line comments to many of the changes I made to the original source. These comments addressed basic refactoring principles, variable/method names, DRY, single responsibility, data structures, public/private variables, and setup/teardown methods for our test harnesses. You can view that pull request [here](https://github.com/neilthawani/headcount/pull/1).
