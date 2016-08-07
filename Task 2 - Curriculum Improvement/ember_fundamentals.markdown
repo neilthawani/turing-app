@@ -41,12 +41,11 @@ tags: javascript, ember
 * Create two-way data bindings
 * Implement computed properties on the controller level
 * Invoke components and send actions back to the controller
-* What we'll do: Create a bare Ember application, using the build pipeline but without any of the addons that the ecosystem has (stubbing fixtures for tests ember-cli-mirage, Bootstrap, external projects like shared code between repos)
+* What we'll do: Create a bare Ember application, using the build pipeline but without any of the addons that the ecosystem has (stubbing fixtures for tests ember-cli-mirage, Bootstrap, Liquid Fire for animations, external projects like shared code between repos)
 
-## Warm Up
+## Prepare & Warm Up
 
-Make sure you have all of the following installed:
-
+### Make sure you have all of the following installed:
 * [Node.js](http://nodejs.org)
 * [ember-cli](http://www.ember-cli.com/) (You may need to use `sudo` depending on how your environment is configured.)
 * The [Ember Inspector](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
@@ -55,10 +54,10 @@ Also: Clone a copy of [this repository][greattipper]. We'll be using it during t
 
 ## Lecture
 
-We'll cover the following topics:
-
 * The technology that makes up Ember (Handlebars, Ember Runtime, Ember Metal, RSVP)
 * The tooling around Ember (the Ember Inspector, ember-cli, Ember Data)
+* Convention over configuration to build tools:
+Broccoli, folder structure, ES6 modules, ES6 support with Babel, testing framework (QUnit is default), npm/bower dependencies, asset management in ember-cli-build.js.
 * The Ember object model
   * Classes and instances
   * Initializing an object (and calling `this._super()`)
@@ -151,8 +150,7 @@ Rendering engine: Glimmer (external link to Ember Conf) - creates a virtual tree
 
 https://en.wikipedia.org/wiki/Ember.js#Ember_Software_Stack
 
-Convention over configuration to build tools:
-Broccoli, folder structure, ES6 modules, ES6 support with Babel, testing framework (QUnit is default), npm/bower dependencies, asset management in ember-cli-build.js.
+
 
 Ember Data
 
@@ -175,16 +173,14 @@ Breaking changes introduced at major version numbers
 New features, deprecations added at point releases
 Tooling to streamline this process is under development
 
-Relevant Resources:
-Core team meeting minutes
-EmberJS subreddit
-Major changes for Ember go through the RFC process
-http://emberweekly.com/
-
-Liquid fire? ***
-
 ## Resources
 
+[Core team meeting minutes](https://github.com/emberjs/core-notes)
+[EmberJS subreddit](https://www.reddit.com/r/emberjs)
+[Ember RFCs](https://github.com/emberjs/rfcs)
+[Major changes for Ember go through the RFC process)
+[Ember Weekly Newsletter](http://emberweekly.com/)
+[Monthly Online Global Ember Meetup](https://www.bigmarker.com/communities/global-ember-meetup/about)
 * [Great Tipper][greattipper]
 
 [greattipper]: https://github.com/neilthawani/great-tipper
