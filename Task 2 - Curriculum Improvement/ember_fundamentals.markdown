@@ -9,28 +9,27 @@ tags: javascript, ember
 * What Ember actually is and does
 * Its history and lineage
 
-An open-source JS web framework
-Create SPAs with a common language
-Like Ruby, it's clean code and separation of concerns with a highly opinionated structure - Convention over configuration, DRY
+### What is Ember?
 
-History:
-http://www.h-online.com/open/news/item/SproutCore-2-0-becomes-Ember-js-1394362.html
-December 2011 - Sproutcore 2.0 (app library) becomes Ember to reduce confusion between the Sproutcore 1.0 widget library and Ember
-Created by Yehuda Katz
+* An open-source JS web framework
+* Create SPAs with a common language
+* Like Ruby, it's clean code and separation of concerns with a highly opinionated structure - Convention over Configuration, DRY
 
-Ecosystem
-What we'll do: Create a bare Ember application, using the build pipeline but without any of the addons that the ecosystem has (stubbing fixtures for tests ember-cli-mirage, Bootstrap, external projects like shared code between repos)
+### History
+* 2007: Development began on Sproutcore 1.0, a widget library created by Yehuda Katz
+* May 2011: Sproutcore 2.0 emerged as an application library for the new web
+* December 2011 - Sproutcore 2.0 becomes Ember to reduce confusion between the Sproutcore 1.0 widget library and Ember
 
-Stability without stagnation - an LTS release twice a year.
-This is the idea that backward compatibility is important and can be maintained while still innovating and evolving the framework.[11]
+### Current Ecosystem
+* Founders: Yehuda Katz and Tom Dale (Tomhuda Katzdale)
+* Ember App Kit to Ember CLI
+* Stability without stagnation - an LTS release twice a year.
+* This is the idea that backward compatibility is important and can be maintained while still innovating and evolving the framework.
+* Promises, web components, ES6 support with Babel
+* Future web standards in mind
+* Katz is a member on TC39, which is the committee responsible for future versions of the Javascript language.
 
-Future web standards in mind
-Ember App Kit to Ember CLI
-Promises, web components, ES6
-Founders: Yehuda Katz and Tom Dale (Tomhuda Katzdale)
-Katz is a member on TC39, which is the committee responsible for future versions of the Javascript language.
-
-#### Who uses Ember?
+### Who uses Ember?
 
 | Twitch | Urbanspoon | Infegy | TED |
 | Zenefits | Netflix | Heroku | Microsoft |
@@ -42,17 +41,7 @@ Katz is a member on TC39, which is the committee responsible for future versions
 * Create two-way data bindings
 * Implement computed properties on the controller level
 * Invoke components and send actions back to the controller
-
-## Structure
-
-* 5 - Warm Up
-* 15 - Lecture: Introduction to Ember
-* 25 - Lecture: The Ember Object Model
-* 5 - Break
-* 10 - Code Along
-* 30 - Pair Practice
-* 25 - Recap and Refactor
-* 5 - Wrap Up
+* What we'll do: Create a bare Ember application, using the build pipeline but without any of the addons that the ecosystem has (stubbing fixtures for tests ember-cli-mirage, Bootstrap, external projects like shared code between repos)
 
 ## Warm Up
 
