@@ -96,3 +96,10 @@ enrollment_test, headcount_analyst_test, and iteration_1_test are passing
 Need to refactor headcount_analyst and its respective test.
 
 ruby -Ilib:test test/minitest/test_minitest_test.rb
+
+https://www.google.com/search?q=steps+for+refactoring+code&oq=steps+for+refactoring+code&aqs=chrome..69i57.501j0j7&sourceid=chrome&ie=UTF-8
+https://spin.atomicobject.com/2015/03/02/code-refactoring/
+
+Created alias for run test - mt
+
+Deleted statewide test
