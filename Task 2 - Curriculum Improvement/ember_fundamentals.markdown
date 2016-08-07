@@ -13,6 +13,11 @@ An open-source JS web framework
 Create SPAs with a common language
 Like Ruby, it's clean code and separation of concerns with a highly opinionated structure - Convention over configuration, DRY
 
+History:
+http://www.h-online.com/open/news/item/SproutCore-2-0-becomes-Ember-js-1394362.html
+December 2011 - Sproutcore 2.0 (app library) becomes Ember to reduce confusion between the Sproutcore 1.0 widget library and Ember
+Created by Yehuda Katz
+
 Ecosystem
 What we'll do: Create a bare Ember application, using the build pipeline but without any of the addons that the ecosystem has (stubbing fixtures for tests ember-cli-mirage, Bootstrap, external projects like shared code between repos)
 
@@ -25,18 +30,11 @@ Promises, web components, ES6
 Founders: Yehuda Katz and Tom Dale (Tomhuda Katzdale)
 Katz is a member on TC39, which is the committee responsible for future versions of the Javascript language.
 
-#### [Who uses Ember?](http://emberjs.com/ember-users/)
-* Twitch
-* Urbanspoon
-* Infegy
-* TED
-* Zenefits
-* Netflix
-* Heroku
-* Microsoft
-* LinkedIn
-* Esri
-* Kickstarter
+#### Who uses Ember?
+
+| Twitch | Urbanspoon | Infegy | TED |
+| Zenefits | Netflix | Heroku | Microsoft |
+| LinkedIn | Esri | Kickstarter | [More...](http://emberjs.com/ember-users/) |
 
 ## Learning Goals
 
@@ -56,18 +54,12 @@ Katz is a member on TC39, which is the committee responsible for future versions
 * 25 - Recap and Refactor
 * 5 - Wrap Up
 
-## Resources
-
-* [Great Tipper][greattipper]
-
-[greattipper]: https://github.com/neilthawani/great-tipper
-
 ## Warm Up
 
 Make sure you have all of the following installed:
 
 * [Node.js](http://nodejs.org)
-* [ember-cli](http://www.ember-cli.com/) (You made need to use `sudo` depending on how your environment is configured.)
+* [ember-cli](http://www.ember-cli.com/) (You may need to use `sudo` depending on how your environment is configured.)
 * The [Ember Inspector](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
 
 Also: Clone a copy of [this repository][greattipper]. We'll be using it during the Code-Along and Pair Practice segments of the lesson.
@@ -200,9 +192,10 @@ EmberJS subreddit
 Major changes for Ember go through the RFC process
 http://emberweekly.com/
 
-History:
-http://www.h-online.com/open/news/item/SproutCore-2-0-becomes-Ember-js-1394362.html
-December 2011 - Sproutcore 2.0 (app library) becomes Ember to reduce confusion between the Sproutcore 1.0 widget library and Ember
-Created by Yehuda Katz
-
 Liquid fire? ***
+
+## Resources
+
+* [Great Tipper][greattipper]
+
+[greattipper]: https://github.com/neilthawani/great-tipper
