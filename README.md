@@ -1,5 +1,5 @@
 ## Task 1 - Lesson Planning
-I decided to create the lesson plan for Parsing CSV in Ruby. In the introductory video to the lesson, I talk about my experiences working with the Lean Lab, an education startup accelerator in Kansas City, about a year ago. I shared my story and thought process while working on that project while I read from a script I wrote for the recording.
+I decided to create the lesson plan for Parsing CSV in Ruby. In the introductory video to the lesson, I talk about my experiences working with the Lean Lab, an education startup accelerator in Kansas City. I shared my story and thought process while working on that project while I read from a script I wrote for the recording.
 
 While creating this lesson, I found Turing's [Introduction to CSV](https://github.com/turingschool/lesson_plans/blob/master/ruby_01-object_oriented_programming_with_ruby/intro-to-csv.markdown) lesson. I believe my lesson is slightly more detailed than that, as it touches on memory management, reviewing documentation, and edge cases involved in parsing CSV data.
 
