@@ -1,15 +1,15 @@
 ## Task 1 - Lesson Planning
-I decided to create the lesson plan for Parsing CSV in Ruby. I worked with an education startup accelerator in Kansas City called the Lean Lab about a year ago and shared my story and thought process while working on that project in the introductory video to the lesson. In the introductory video, I'm reading from a script I wrote for the recording.
+I decided to create the lesson plan for Parsing CSV in Ruby. In the introductory video to the lesson, I talk about my experiences working with the Lean Lab, an education startup accelerator in Kansas City, about a year ago. I shared my story and thought process while working on that project while I read from a script I wrote for the recording.
 
-While creating this lesson, I found the Introduction to CSV lesson on the Turing GitHub repository. I believe my lesson is slightly more detailed than that, as it touches on memory management, reviewing documentation, and edge cases involved in parsing CSV data.
+While creating this lesson, I found Turing's [Introduction to CSV](https://github.com/turingschool/lesson_plans/blob/master/ruby_01-object_oriented_programming_with_ruby/intro-to-csv.markdown) lesson. I believe my lesson is slightly more detailed than that, as it touches on memory management, reviewing documentation, and edge cases involved in parsing CSV data.
 
-The challenges I faced involved conveying this information to an audience that essentially knows nothing about data processing while keeping it relevant and informative, but I tried my best.
+The challenges I faced involved conveying this information to an audience that essentially knows nothing about data processing while keeping it relevant and informative.
 
 [You can find the repository for the lesson here.](https://github.com/neilthawani/intro-to-csv)
 
 ## Task 2 - Curriculum Improvement
 
-I am currently an Ember.js and D3.js developer at Infegy, a social media research SaaS firm in Kansas City, MO. I've grown to love Ember.js and its conventions since they're so reminiscent of Ruby's. Because of this, I decided to improve the Ember Fundamentals lecture. I also reviewed the code from the good-tipper application and created a new, working, and up-to-date Ember CLI app called great-tipper.
+I am currently an Ember.js and D3.js developer at Infegy, a social media research SaaS firm in Kansas City, MO. I've grown to love Ember.js and its conventions since they're so reminiscent of Ruby on Rails. Because of this, I decided to improve the Ember Fundamentals lecture. I also reviewed the code from the [good-tipper](https://github.com/turingschool-examples/good-tipper) application and created a new, working, and up-to-date Ember CLI app called great-tipper.
 
 [This is a link to the Ember Fundamentals pull request.](https://github.com/turingschool/lesson_plans/pull/234)
 
